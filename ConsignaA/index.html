@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consigna A</title>
+
+    <link rel="stylesheet" href="stylos.css">
+    <link rel="stylesheet" href="modal.css">
+    <script src="validaciones.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+    <form>
+        <p>Complete el formulario para registrarse</p>
+        <div class="form-dat">
+            <div class="col-dat">
+                
+                <div class="item-dat">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="name" placeholder="Tu nombre">
+                    <p class="hiddenError" id="nameError">Debe contener solo texto y al menos 3 letras</p>
+                </div>
+
+                <div class="item-dat">
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" id="ape" placeholder="Tu apellido">
+                    <p class="hiddenError" id="apeError">Debe contener solo texto y al menos 3 letras</p>
+                </div>
+
+                <div class="item-dat">
+                    <label for="email">Email: </label>
+                    <input type="text" id="mail" placeholder="Ingresar mail">
+                    <p class="hiddenError" id="mailError">Ingrese un mail correcto</p>
+                </div>
+          
+            </div>
+            
+            <div class="col-dat">
+
+                <div class="item-dat">
+                    <label for="repEmail">Repetir Email: </label>
+                    <input type="text" id="repEmail" placeholder="Ingresar mail">
+                    <p class="hiddenError" id="errrepEmail">El mail ingresado no coincide</p>
+                </div>
+
+                <div class="item-dat">
+                    <label for="pass">Contraseña: </label>
+                    <input type="password" id="pass" name="password" placeholder="Ingrese su Contraseña" required class="input">
+                   <p class="hiddenError" id="passError">Contraseña incorrecto</p>
+                </div>
+                <div class="item-dat">
+                    <label for="repPass">Repetir Contraseña: </label>
+                    <input type="password" id="repPass" name="password" placeholder="Ingrese su Contraseña" required class="input">
+                    <p class="hiddenError" id="passRepError">La contraseña ingresada no coincide</p>
+                </div>
+            </div>
+        </div>
+        
+        <input type="button" value="Enviar" id="enviar">
+    </form>
+    <div id="modal_ok" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Registro exitoso!</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+
+</footer>
+</body>
+</html>

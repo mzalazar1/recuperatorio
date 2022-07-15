@@ -1,0 +1,123 @@
+header{
+    height: 150px;
+}
+nav {
+    padding: 20px 0;
+}
+form {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    margin: 12px;
+}
+select {
+    width: 300px;
+}
+input[type=text],input[type=password]{
+    margin: 5px 0;
+    width: 400px;
+}
+input[type=button] {
+    width: 35%;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.form-dat {
+    justify-content: space-around;
+    display: flex;
+    flex-flow: wrap;
+}
+.col-dat {
+    min-width: 300px;
+}
+.item-dat {
+    display: flex;
+    flex-direction: column;
+}
+
+.hiddenError{
+    display: none;
+}
+
+/* ---------------------- Estilos ------------------------------*/
+
+nav, body {
+    background-color: rgb(114, 135, 241);
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+main {
+    background-color: #6a9c97;
+}
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #353535;
+}
+input {
+    border-radius: 7px;
+    border-color:beige;
+    color: #353535;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+label {
+    font-size: 1rem;
+}
+select {
+    border-radius: 5px;
+    text-align: center;
+}
+input[type=button] {
+    background-color: rgb(83, 97, 153);
+    border: 1px solid;
+}
+
+a:hover {
+    color: red;
+}
+
+.form-dat{
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #353535;
+}
+#nameError {
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+}
+#apeError {
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+}
+#mailError {
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+}
+#errrepEmail {
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+}
+#passError {
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+}
+#passRepError {
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+}
