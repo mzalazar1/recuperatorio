@@ -1,0 +1,16 @@
+
+
+body {
+    background-color: rgb(114, 135, 241);
+}
+main {
+    background-color: #6a9c97;
+}
+header{
+    height: 150px;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 0;
+}
